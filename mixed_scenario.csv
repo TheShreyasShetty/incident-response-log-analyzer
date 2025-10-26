@@ -1,0 +1,18 @@
+Timestamp,EventID,Username,SourceIP,Status,Description
+2024-10-23 08:00:00,4624,john.doe,192.168.1.100,Success,Normal morning login
+2024-10-23 08:15:00,4624,jane.smith,192.168.1.105,Success,Normal morning login
+2024-10-23 09:00:00,4625,dbadmin,203.0.113.100,Failed,Failed login attempt
+2024-10-23 09:01:00,4625,dbadmin,203.0.113.100,Failed,Failed login attempt
+2024-10-23 09:02:00,4625,dbadmin,203.0.113.100,Failed,Failed login attempt
+2024-10-23 09:03:00,4624,dbadmin,203.0.113.100,Success,Successful login after failures
+2024-10-23 09:05:00,4672,dbadmin,203.0.113.100,Success,Admin privileges assigned
+2024-10-23 09:10:00,4720,dbadmin,203.0.113.100,Success,New user account created: backdoor_user
+2024-10-23 10:00:00,4624,alice.wong,192.168.1.115,Success,Normal login
+2024-10-23 10:30:00,4625,root,45.88.22.11,Failed,Failed login attempt
+2024-10-23 10:31:00,4625,administrator,45.88.22.11,Failed,Failed login attempt
+2024-10-23 10:32:00,4625,admin,45.88.22.11,Failed,Failed login attempt
+2024-10-23 10:33:00,4625,sysadmin,45.88.22.11,Failed,Failed login attempt
+2024-10-23 10:34:00,4625,admin,45.88.22.11,Failed,Failed login attempt
+2024-10-23 10:35:00,4625,admin,45.88.22.11,Failed,Failed login attempt
+2024-10-23 11:00:00,4624,bob.jones,192.168.1.110,Success,Normal login
+2024-10-23 12:00:00,4624,mike.chen,192.168.1.120,Success,Normal login
